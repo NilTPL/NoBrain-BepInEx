@@ -41,6 +41,7 @@ public static class NoBrainDB {
         SHRINE_KEY_MAPPING.Add("Junk Shrine", "#SHRINE_JUNK_DISPLAY");
         SHRINE_KEY_MAPPING.Add("Peace Shrine", "#SHRINE_HEALTH_DISPLAY");
         SHRINE_KEY_MAPPING.Add("Y.V Shrine", "#SHRINE_YV_DISPLAY");
+        SHRINE_KEY_MAPPING.Add("Beholster Shrine", "#SHRINE_BEHOLSTER_DISPLAY");
     }
     
     public static void Load() {

@@ -12,7 +12,7 @@ public class NoBrain : BaseUnityPlugin {
 
     public const string GUID = "lazymo3_and_NilT_PL.etg.NoBrain";
     public const string NAME = "No Brain";
-    public const string VERSION = "1.1.0";
+    public const string VERSION = "1.2.0";
 
 #if DEBUG
     public static bool FINE_LOGGING = true;
@@ -31,12 +31,12 @@ public class NoBrain : BaseUnityPlugin {
         Patcher.doPatch();
         
         ETGModConsole.Commands.AddGroup("nobrain", delegate {
-            Log("<size=100>NoBrain v1 by markusmo3!</size>");
+            Log("<size=100>NoBrain Port by NilT_PL!</size>");
             Log("Use \"nobrain help\" for help!");
         });
         ETGModConsole.Commands.GetGroup("nobrain")
             .AddUnit("help", delegate {
-                Log("<size=100>NoBrain v1 by markusmo3!</size>");
+                Log("<size=100>NoBrain Port by NilT_PL!</size>");
                 Log("");
                 Log("NoBrain Command Reference:");
                 Log("(arg) = Optional argument, [arg] = Mandatory argument");
