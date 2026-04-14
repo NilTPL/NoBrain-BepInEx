@@ -1,8 +1,8 @@
 // Parser for http://gungeongod.com/
 
-var fs = require('fs');
-var Crawler = require("crawler");
-var format = require('string-format');
+import fs from 'fs';
+import Crawler from 'crawler';
+import format from 'string-format'
 
 function handle(callback) {
     return function(error, res, done) {
@@ -50,7 +50,44 @@ var replacements = {
     "Table Tech Shotgun": "5002",
     "Clown Mask": "607",
     "Drill": "625",
-    "Loot Bag": "605"
+    "Loot Bag": "605",
+    // farewell to arms
+    "3rd Party Controller": "511",
+    "Chamber Gun": "647",
+    "Evolver": "755",
+    "The Fat Line": "562",
+    "Finished Gun": "762",
+    "Glass Cannon": "540",
+    "Gunderfury": "732",
+    "GuNNER": "602",
+    "High Kaliber": "761",
+    "JK-47": "510",
+    "Knight's Gun": "550",
+    "Kruller Glaive": "656",
+    "The Predator": "543",
+    "Really Special Lute": "506",
+    "Slinger": "604",
+    "Sunlight Javelin": "748",
+    "Teapot": "596",
+    "Tetrominator": "483",
+    "Trank Gun": "42",
+    "Triple Gun": "516",
+    "Void Core Cannon": "593",
+    "Windgunner": "546",
+    //items
+    "Baby Good Shelleton": "818",
+    "Blank Bullets": "579",
+    "Cat Bullet King Throne": "817",
+    "Katana Bullets": "822",
+    "Lich's Eye Bullets": "815",
+    "Magazine Rack": "814",
+    "Orbital Bullets": "661",
+    "Scouter": "821",
+    "Shadow Clone": "820",
+    "Sprun": "578",
+    "Table Tech Heat": "666",
+    "Ticket": "320",
+    "Turtle Problem": "645"
 };
 
 function parse($) {
